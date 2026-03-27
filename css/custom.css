@@ -1,0 +1,16 @@
+:root {
+    --bs-danger-rgb: 192, 49, 43;
+}
+
+html { scroll-behavior: smooth; }
+
+
+/* I am the Danger */
+
+.dangerous * {
+    color: #c0312b
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show { /* Hack Tack */
+    color: #c0312b
+}
