@@ -4,13 +4,32 @@
 
 html { scroll-behavior: smooth; }
 
+body {
+    font-family: "DM Sans", sans-serif
+}
+
+.fancy {
+    font-family: "Cormorant Garamond", serif;
+}
+
 
 /* I am the Danger */
 
+.dangerous {
+    color: #c0312b;
+}
+
 .dangerous * {
-    color: #c0312b
+    color: #c0312b;
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show { /* Hack Tack */
-    color: #c0312b
+    color: #c0312b;
+}
+
+/* Carousel Fitur */
+
+.carousel-dik-dik {
+    max-width: 50%;
+    max-height: 50%;
 }
