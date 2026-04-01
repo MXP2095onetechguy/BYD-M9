@@ -1,92 +1,106 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BYD M9</title>
+    <title>BYD M9 — Kekurangan</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500;600&display=swap"
-        rel="stylesheet" />
-
-    <link href="./css/custom.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body>
-    <!--Backboard-->
-    <div id="backboard">
-        <img src="./img/fitur.png" style="z-index:-2" class="position-absolute top-0 start-0 w-100 h-100 bg-dark" />
+<body class="bg-dark text-white">
 
-        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50" style="z-index:-1"></div>
+<nav class="navbar navbar-dark bg-black border-bottom border-danger">
+  <div class="container-fluid">
+    <a class="navbar-brand text-danger" href="#">BYD M9</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link text-white" href="index.html">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="fitur.html">Fitur</a></li>
+        <li class="nav-item"><a class="nav-link text-danger" href="kaput.html">Kekurangan</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="mengapa.html">Mengapa</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="kesvew.html">Reviews</a></li>
+      </ul>
     </div>
+  </div>
+</nav>
 
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary dangerous" style="z-index:0">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">BYD M9</a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Beranda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./fitur.html">Fitur</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./kaput.html">Kekurangan</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./mengapa.html">Mengapa</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./kesvew.html">Reviews</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    </nav>
-
-    <!--Body-->
-    <div class="container-fluid w-100 vh-100">
-        <div class="container w-100 mt-5" style="min-height:80vh;height:80vh">
-            <h1 class="fancy mx-auto my-auto p-auto" style="font-size: 10vw;">Kelemahan</h1>
-        </div>
-        <div class="container row">
-            <div class="card col">
-                  <div class="card-body">
-                    <h5 class="card-title">Suspensi Terasa Keras</h5>
-                    <p class="card-text">Meski diklaim nyaman, suspensi M9 terasa cukup keras pada beberapa kondisi jalan berlubang atau tidak rata. Pengguna dengan preferensi ride comfort tinggi perlu mencoba test drive terlebih dahulu.</p>
-                  </div>
-            </div>
-            <div class="card col">
-                  <div class="card-body">
-                    <h5 class="card-title">Beban Ekstra Baterai</h5>
-                    <p class="card-text">Baterai hybrid yang besar menambah bobot signifikan pada kendaraan, yang berimbas pada handling dan efisiensi tertentu. Suspensi harus bekerja ekstra untuk mengkompensasi bobot tambahan ini.</p>
-                  </div>
-            </div>
-            <div class="card col">
-                  <div class="card-body">
-                    <h5 class="card-title">Rentan Kondisi Banjir</h5>
-                    <p class="card-text">Sistem baterai dan elektronik yang kompleks berpotensi rentan terhadap kondisi banjir — sebuah isu yang sangat relevan mengingat kondisi infrastruktur dan iklim di Indonesia.</p>
-                  </div>
-            </div>
-        </div>
+<div class="position-relative">
+    <img src="crash.jpg" class="w-100" style="height:60vh; object-fit:cover;" alt="">
+    <div class="position-absolute top-50 start-50 translate-middle text-center">
+        <h1 class="fw-bold">Kelemahan</h1>
+        <p class="text-warning fw-bold">Tidak ada kendaraan yang sempurna.</p>
     </div>
+</div>
+
+<div class="container py-5 text-center">
+    <h2 class="fw-light mb-3">Hal yang Perlu Dipertimbangkan</h2>
+    <p class="text-secondary col-lg-8 mx-auto">
+        BYD M9 menawarkan teknologi tinggi, namun beberapa aspek berikut perlu dipertimbangkan sebelum membeli.
+    </p>
+</div>
+
+<div class="container pb-5">
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card bg-black border-danger h-100">
+                <div class="card-body">
+                    <span class="badge bg-danger mb-3">01</span>
+                    <h5 class="text-danger">Suspensi Firm</h5>
+                    <p class="text-secondary">
+                        Lebih kaku dari ekspektasi MPV mewah. Jalan tidak rata masih terasa.
+                    </p>
+                    <p class="small text-muted">Stabil, tapi kurang empuk.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-black border-danger h-100">
+                <div class="card-body">
+                    <span class="badge bg-danger mb-3">02</span>
+                    <h5 class="text-danger">Bobot Berat</h5>
+                    <p class="text-secondary">
+                        Baterai menambah bobot, mempengaruhi kelincahan saat manuver.
+                    </p>
+                    <p class="small text-muted">Efisiensi vs handling.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-black border-danger h-100">
+                <div class="card-body">
+                    <span class="badge bg-danger mb-3">03</span>
+                    <h5 class="text-danger">Risiko Banjir</h5>
+                    <p class="text-secondary">
+                        Sistem listrik sensitif terhadap genangan air.
+                    </p>
+                    <p class="small text-muted">Perlu ekstra hati-hati.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="mt-5">
+    <img src="vrash.jpg" class="w-100" style="height:40vh; object-fit:cover;" alt="">
+</div>
+
+<div class="container text-center py-5">
+    <p class="text-light">
+        Tetap, BYD M9 adalah salah satu MPV paling inovatif di kelasnya.
+    </p>
+</div>
 
 </body>
-
 </html>

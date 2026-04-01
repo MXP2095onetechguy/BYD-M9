@@ -1,78 +1,57 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BYD M9</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BYD M9</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500;600&display=swap"
-        rel="stylesheet" />
-
-    <link href="./css/custom.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body>
-    <!--Backboard-->
-    <div id="backboard">
-        <iframe
-            src="https://www.youtube.com/embed/ZKrfELXz3iA?autoplay=1&mute=1&loop=1&playlist=ZKrfELXz3iA&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3"
-            frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen"
-            allowfullscreen style="z-index:-2" class="position-absolute top-0 start-0 w-100 h-100 bg-dark">
-        </iframe>
+<body class="bg-black">
 
-        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50" style="z-index:-1"></div>
+<div class="position-fixed w-100 h-100 z-n1">
+  <video class="w-100 h-100 object-fit-cover" autoplay muted loop>
+    <source src="2026 BYD M9 Revealed – The Luxury MPV of the Future!.mp4" type="video/mp4">
+  </video>
+  <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-75"></div>
+</div>
+
+<nav class="navbar navbar-dark bg-black border-bottom border-danger">
+  <div class="container-fluid">
+    <a class="navbar-brand text-danger" href="#">BYD M9</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link text-white" href="index.html">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="fitur.html">Fitur</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="kaput.html">Kekurangan</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="mengapa.html">Mengapa</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="kesvew.html">Reviews</a></li>
+      </ul>
     </div>
+  </div>
+</nav>
 
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary dangerous" style="z-index:0">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">BYD M9</a>
+<div class="container min-vh-100 d-flex flex-column justify-content-center text-white">
+  <h1 class="display-4">BYD M9</h1>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+  <p class="text-white-50 col-md-6">
+    MPV Premium Hybrid yang mendefinisikan ulang kemewahan dalam era elektrifikasi.
+  </p>
 
-
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Beranda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./fitur.html">Fitur</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./kaput.html">Kekurangan</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./mengapa.html">Mengapa</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./kesvew.html">Reviews</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    </nav>
-
-    <!--Body-->
-    <div class="container-fluid w-100 h-100">
-        <div class="container-fluid justify-content-center w-100 vh-80 d-flex flex-column" style="position: fixed; bottom: 20%; left: 0;">
-            <p class="mt-auto p-auto">Review Kendaraan - November 2024</p>
-            <h1 class="dangerous fancy p-0" style="font-size: 10vw;">BYD M9</h1>
-            <p class="p-auto">MPV Premium Hybrid yang mendefinisikan ulang kemewahan dalam era elektrifikasi.</p>
-        </div>
-    </div>
+  <div class="d-flex flex-wrap gap-2">
+    <a href="fitur.html" class="btn btn-danger">Fitur</a>
+    <a href="kaput.html" class="btn btn-outline-danger">Kekurangan</a>
+    <a href="mengapa.html" class="btn btn-outline-light">Mengapa?</a>
+    <a href="kesvew.html" class="btn btn-outline-light">Reviews</a>
+  </div>
+</div>
 
 </body>
-
 </html>
